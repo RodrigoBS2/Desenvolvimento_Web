@@ -1,0 +1,24 @@
+/*  Diferentes maneiras de modificar a cor:
+    - rbg(red,green,blue);
+    - rbga(red,green,blue, transparencia). Obs: a transparencia vai de 0 a 1;
+    - Usando Hexedecimal:
+        * FF6489: uma determianda cor sem uso da transparência;
+        * FF6489AA: uma determianda cor com uso da transparência;
+*/
+p{
+    color: black;
+    background-color: rgba(255, 192, 253, 0.8)
+}
+
+#paragrafo1{
+    color: black;
+    background-color: rgb(150, 200, 50);
+}
+
+.paragrafo{
+    color: #FFFF00;
+    background-color: black;
+
+   
+}
+

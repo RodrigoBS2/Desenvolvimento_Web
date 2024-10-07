@@ -1,0 +1,20 @@
+CSS
+- Praticamente vai dar vida a tua página. Responsável por deixar o site, interface bonitas.
+- Existe três maneiras de criar um CSS:
+    - CSS inline: modifica o estilo escrvendo os comandos diretamente no elemento, tag, dentro deles. 
+                  Ex: <p style="color:red"> Texto </p>;
+
+    - CSS interno: separa o estilo do elemento em si. Tem um controle melhor, facilita as modificações do estilo dos elementos, das tags desejados.
+                   Ex: Tag <style> dentro da tag <head> do HTML
+                        <head>
+                            <style>
+                                p{color:red}
+                            </style>
+                        </head>
+                        <body>
+                            <p>Texto</p>
+                        </body>
+    
+    - CSS externo: o arquivo CSS separado do arquivo HTML. Tem um controle muito melhor em relação ao CCS interno.
+                   Para criar um arquivo css basta criar um arquivo que termine com ".css"
+                   Exemplo: style.css 

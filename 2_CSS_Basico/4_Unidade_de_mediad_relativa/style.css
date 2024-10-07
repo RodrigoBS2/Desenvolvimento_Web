@@ -1,0 +1,41 @@
+#div_1{
+    width: 500px;
+    height: 300px;
+    background: brown;
+}
+
+#div_2{
+    width: 50vw;
+    height: 200px;
+    background: rgb(23, 13, 97);
+}
+
+.foto{
+    width: 50%;
+}
+
+/*
+    Unidade de medida relativa:
+        - Nesse exemplo temos dois elementos pais (div_1 e div_2) e 
+        dois elementos filhos (foto). São elementos filhos aqueles que 
+        estão dentro do elemento pai. 
+
+        - Quando falamos de medida relativa, refere-se
+        a medida do elemento filho em relação ao elemento pai.
+
+        - Outro exemplo de elementos pai e filho são: 
+            * bobdy : elemento pai
+            * div_1 e div_2: elementos filhos 
+
+        Na classe "foto" (elemento filho dos elementos div_1 e div_2): 
+        - O uso da procentagem (como no exemplo "%50") em "width" significa q está
+        determinando o comprimento da imagem como sendo 50% comprimento total dos 
+        elementos pais div_1 e div_2;
+        - Para a proporção da imagem (largura e altura) aumentam (ou diminuem) para manter
+        medida definida pelo programador (no caso acima, os 50%).
+    
+    Atributo "vh" e "vw":
+     - Usado em width e height para determinar a porcentagem de comprimento e altura em
+      relação a tela do site. É dinâmico, quando altera o tamanho do site, automaticamnte altera o 
+      tamanho de maneira proporcional, garantindo a porcentagem de tamanho definida pelo programandor
+*/

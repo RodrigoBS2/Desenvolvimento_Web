@@ -1,0 +1,20 @@
+p{      /* Estrutura do elemento (tag) */
+    color: black;
+    background-color: pink;
+}
+
+.paragrafo_1{   /* Estrutura do elemento (tag) com a classe */
+    color: yellow;
+    background-color: black;
+
+   
+}
+
+#paragrafo_2{   /* Estrutura do elemento (tag) com o id */
+    color: black;
+    background-color: aqua;
+}
+
+
+
+ /* Comentário no arquivo css */

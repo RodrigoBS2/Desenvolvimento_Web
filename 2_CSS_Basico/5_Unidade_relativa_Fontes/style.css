@@ -1,0 +1,24 @@
+#D{
+    font-size: 10px;
+}
+.G{
+    font-size: 5em;
+}
+.E{
+    font-size: 3rem;
+}
+
+/*  
+    Font-size:
+        - Se não citar a font-size do filho. O filho herdará a fonte-size do pai. Exemplo da classe "R";
+        - A font-size do elemento <html> é de 16px (Padrão).
+
+    Atributo "em":
+        - Multiplica o tamanho da font-size que ele tem em relação a font-size do pai;
+        - Exemplo da classe "G": Terá 5 vezes o tamanho estabelecido pelo pai (div "D").     
+
+    Atributo "rem":
+        -  Multiplica o tamanho da font-size que ele tem em relação a font-size do elemento raiz <html>;
+        -  Exemplo da classe "E": Terá 3 vezes o tamanho estabelecidado pelo elemento html (16px).
+*/
+
