@@ -28,7 +28,7 @@
             * div_1 e div_2: elementos filhos 
 
         Na classe "foto" (elemento filho dos elementos div_1 e div_2): 
-        - O uso da procentagem (como no exemplo "%50") em "width" significa q está
+        - O uso da procentagem (como no exemplo "%50") em "width" significa que está
         determinando o comprimento da imagem como sendo 50% comprimento total dos 
         elementos pais div_1 e div_2;
         - Para a proporção da imagem (largura e altura) aumentam (ou diminuem) para manter
