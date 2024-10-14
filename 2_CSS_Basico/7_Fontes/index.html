@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div>
         <h1>Instruction pipelining</h1>
-        <p id = "paragraph_1" >In computer engineering, instruction pipelining is a technique for implementing instruction-level
+        <p class = "paragraph_1" >In computer engineering, instruction pipelining is a technique for implementing instruction-level
             parallelism within a single processor. Pipelining attempts to keep every part of the processor busy with some instruction 
             by dividing incoming instructions into a series of sequential steps (the eponymous "pipeline") performed by different 
             processor units with different parts of instructions processed in parallel.</p>
-        <p></p>
-        <p></p>
+        <br> 
+
+        <h1>Concept and motivation</h1>
+        <p class = "paragraph_2">In a pipelined computer, instructions flow through the central processing unit (CPU) in stages. For example, it might have one 
+            stage for each step of the von Neumann cycle: Fetch the instruction, fetch the operands, do the instruction, write the results. 
+            A pipelined computer usually has "pipeline registers" after each stage. These store information from the instruction and 
+            calculations so that the logic gates of the next stage can do the next step.</p>
+        <br>
+
+        <h1>Number of steps</h1>
+        <div class = "paragraph_3">
+            <p>The number of dependent steps varies with the machine architecture. For example:</p>
+            <ul >
+                <li>The 1956–61 IBM Stretch project proposed the terms Fetch, Decode, and Execute that have become common</li>
+                <li>The classic RISC pipeline comprises:</li>
+                    <ol>
+                        <li>Instruction fetch</li>
+                        <li>Instruction decode and register fetch</li>
+                        <li>Execute</li>
+                        <li>Memory access</li>
+                        <li>Register write back</li>
+                    </ol>
+                <li>The Atmel AVR and the PIC microcontroller each have a two-stage pipeline.</li>
+                <li>Many designs include pipelines as long as 7, 10 and even 20 stages (as in the Intel Pentium 4).</li>
+            </ul>
+        </div>
+        
     </div>
 </body>
 </html>

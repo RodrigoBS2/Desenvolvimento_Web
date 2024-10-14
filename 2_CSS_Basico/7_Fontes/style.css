@@ -1,12 +1,33 @@
-div{
-    width: 500px;
-    height:300px;
-    background-color: rgb(222, 180, 45);
-    
-
-}
-
-#paragraph_1{
-    text-align: justify;
+.paragraph_1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; /* Estilo da fonte */
     
 }
+.paragraph_2{
+    font-family: Arial; /* Sem serifa */
+    font-size: 20px;
+    font-variant: small-caps; /* Uma curiosiade */
+    
+}
+.paragraph_3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;      /* Peso da fonte: varia de 0 a 1000. Se for colocar, bota em multiplos de 100 */
+    
+}
+
+
+
+/*
+    Fontes:
+        - Com serifa : as pontas das letras tem uns traços veertical. Tamanho das letras variam.
+                ex: 'Times New Roman'
+        - Sem serifa : não tem os traços. Tamanho das letras variam.
+                ex: Arial
+        - Monospace : as letras tem o mesmo tamanho
+                ex: 'Courier New'
+
+    Se vc declarar mais de um tipo de fonte em "font-family" o código irá fazer uma busca
+    da primeira opção. Caso não tiver, irá buscar a segunda e assim sucessivamente.
+
+*/
