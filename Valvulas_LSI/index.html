@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte Sender Interface</title>
+    <style>
+        .bit-button {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            font-size: 20px;
+        }
+        #send-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enviar Byte via Wi-Fi</h1>
+    <div id="bit-buttons">
+        <button class="bit-button" id="bit7" data-bit="7">0</button>
+        <button class="bit-button" id="bit6" data-bit="6">0</button>
+        <button class="bit-button" id="bit5" data-bit="5">0</button>
+        <button class="bit-button" id="bit4" data-bit="4">0</button>
+        <button class="bit-button" id="bit3" data-bit="3">0</button>
+        <button class="bit-button" id="bit2" data-bit="2">0</button>
+        <button class="bit-button" id="bit1" data-bit="1">0</button>
+        <button class="bit-button" id="bit0" data-bit="0">0</button>
+    </div>
+    <button id="send-btn">Enviar Byte</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
