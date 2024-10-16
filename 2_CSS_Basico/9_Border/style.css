@@ -1,0 +1,63 @@
+#Border_1{
+    height: 100px;
+    width: 300px;
+    
+    /*  Borda   */
+    border-color: rgb(0, 69, 9) ; 
+    border-style: solid;        /* Só consegue visualizar a borda quando digita esse comando */
+    border-width: 10px;
+    background-color: rgb(232, 229, 7);
+}
+
+#Border_2{
+    height: 100px;
+    width: 100px;
+    
+   
+    border-color: red yellow green blue;    /* topo direita baixo esquerda */ 
+    border-style: solid;        
+    border-width: 10px 20px 30px 40px;      /* topo direita baixo esquerda */
+    background-color: rgb(0, 0, 0);
+
+    
+}
+
+#Border_3{
+    height: 100px;
+    background-color: rgb(94, 3, 3);
+    border-style: solid; 
+    
+    /* Raio da borda : Define os vertices da borda: se vai ficar mais curvada ou mais próxima de 90° graus */
+    border-radius: 100px;        
+    /* border-radius: 50%; */ 
+}
+
+#Border_4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(16, 10, 65);
+    border-style: solid; 
+    border-radius: 5% 15% 30% 50%;  /* topo direita baixo esquerda */     
+}
+
+#div_1{
+
+    border: 3px solid green;     /* border: width style color */
+    border-radius: 10%;
+    text-align: justify;
+}
+
+#div_2{
+    width: 300px;
+
+    border: 20px dashed rgb(107, 13, 13);     /* border: width style color */
+    border-radius: 100px 10px 100px 10px;
+    text-align: justify;
+}
+
+/* 
+    hieght: altura 
+    width: largura    
+*/
+
+

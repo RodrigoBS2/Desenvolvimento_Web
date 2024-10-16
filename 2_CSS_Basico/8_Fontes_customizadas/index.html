@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link da fonte customizada Permanent Marker Static ------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!------------------------------------------------------------------------------------------------------>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Virtual Function in C++</h1>
+        <p class = "paragraph_1" >A virtual function (also known as virtual methods) is a member function that is declared within a base class and is re-defined 
+            (overridden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual 
+            function for that object and execute the derived class’s version of the method.</p>
+        <br> 
+        <ul>
+            <li>Virtual functions ensure that the correct function is called for an object, regardless of the type of reference (or pointer) used for the function call.</li>
+            <li>They are mainly used to achieve Runtime polymorphism.</li>
+            <li>Functions are declared with a virtual keyword in a base class.</li>
+            <li>The resolving of a function call is done at runtime.</li>
+        </ul>
+
+        <h1>Rules for Virtual Functions</h1>
+        <div class = "paragraph_2">
+            <p>The rules for the virtual functions in C++ are as follows:</p>
+            <ol>
+                <li>Virtual functions cannot be static.</li>
+                <li>A virtual function can be a friend function of another class.</li>
+                <li>Virtual functions should be accessed using a pointer or reference 
+                    of base class type to achieve runtime polymorphism.</li>
+                <li>The prototype of virtual functions should be the same in the base 
+                    as well as the derived class.</li>
+                <li>They are always defined in the base class and overridden in a derived class. 
+                    It is not mandatory for the derived class to override (or re-define the virtual 
+                    function), in that case, the base class version of the function is used.</li>
+                <li>A class may have a virtual destructor but it cannot have a virtual constructor.</li>
+            </ol>
+   
+        </div>
+        
+    </div>
+</body>
+</html>

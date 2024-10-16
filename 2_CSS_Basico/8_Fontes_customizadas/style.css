@@ -1,0 +1,22 @@
+.paragraph_1{
+    font-family: 'myFirstFont', Times, serif;
+}
+
+
+.paragraph_2 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../Fontes/Yellowtail/Yellowtail-Regular.ttf);
+}
+/*
+    Sites que possuem fontes customizadas:
+        - Google Fonts
+        - envato elements
+
+    Criando a propria fonte custoomizada: https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
+*/

@@ -1,0 +1,84 @@
+/*
+    Marging
+        - Você consegue fazer o distanciamento 
+        entre divs e classes consecutivas.
+        - É uma distância medida da borda para fora.
+
+    Padding:
+        - Distância medida da borda para dentro.
+*/
+
+
+
+#Janela_1{
+    height: 100px;
+    background-color: rgb(232, 229, 7);
+}
+
+#Janela_2{
+    height: 100px;
+    background-color: rgb(234, 0, 0);    
+    
+    /* Marging */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Janela_3{
+    height: 100px;
+    background-color: rgb(7, 232, 22);
+    
+    margin-top: 30px; /* Se o elemento de cima tiver um valor margin-bottom menor ou maior 
+                         que o margin-top do elemento de baixo. O CSS irá priorizar o maior 
+                         valor  */
+    margin-left: 50px;
+}
+
+#Janela_4{
+    height: 100px;
+    background-color: rgb(7, 11, 232);
+    margin: 20px; /* Configura para todos os lados. */
+    /*                 
+        Pode fazer para cada lado usando maring: top, right, bottom left 
+        Exemplo: margin: 10px 20px 30px 40px;
+    
+        margin: 20px 100px ----> passa 20px para top e bottom, e 100px para left e right
+    */
+}
+
+/* Os paragráfos por si só tem uma margem pré definida de 16px para top e bottom */
+#paragraph_1{
+    width: 300px;
+   margin-bottom: 0px;
+}
+
+#paragraph_2{
+    width: 300px;
+    margin-top: 0px;
+}
+
+
+#Janela_5{
+    background-color: rgb(90, 0, 88);  
+    height: 100px;  
+}
+
+#Janela_6{
+    background-color: rgb(234, 0, 0);
+    margin: 10px;
+    
+    /* Padding */
+    padding: 10px;
+    /*  Os procedmentos do padding é os mesmos do marging   */
+    
+}
+
+#paragraph_3{
+    
+    margin: 0px;
+}
+
+#Janela_7{
+    background-color: rgb(90, 0, 88);  
+    height: 100px;
+}
