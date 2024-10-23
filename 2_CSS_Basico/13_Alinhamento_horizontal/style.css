@@ -1,0 +1,41 @@
+/*
+Centralizar elementos
+    Usar "margin-left: auto" ou "margin-right: auto", você joga todo o 
+    elemento para direita ou esquerda.
+    Só serve para elementos que que ocupam o espaço todo, por exemplo:
+        - parágrafos
+        - div vazias (sem imagens por exemplo)
+    Com imagens não funciona
+
+    "text-align: center" centraliza alguns tipos de elementos. Ele pode servir para centralizar uma imagem, por exemplo.
+    Apenas joga a imagem dentro de uma div e, na div, usa o comando "text-align: center"
+*/
+
+
+#div_1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+        Pode substituir "margin-left: auto" e "margin-right: auto" por "margin: auto", apenas. 
+    */
+}
+
+p{
+    width: 400px;
+    text-align: center;
+    margin: auto; 
+}
+
+#div_2{
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    
+    margin-left: auto;
+}

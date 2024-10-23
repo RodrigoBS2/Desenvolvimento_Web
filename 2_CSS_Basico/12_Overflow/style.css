@@ -1,0 +1,21 @@
+/*
+Overflow
+    As vezes o elemento filho acaba sendo maior que o elemento pai. Por exemplo: um texto grande dentro de um elemento com altura e/ou largura pequenos.
+    Uma maneira de resolver isso é usando o comando "overflow":
+        - overflow: hidden;
+        - overflow: scroll;
+        - overflow: auto;   coloca scroll apenas aonde precisa
+        - overflow-x: scroll ou hidden
+        - overflow-y: scroll ou hidden
+*/
+
+.Pai{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    overflow: auto;
+}
+.Filho{
+    width: 400px;
+    font-size: 20px;
+}

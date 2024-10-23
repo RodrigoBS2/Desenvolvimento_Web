@@ -1,0 +1,33 @@
+/*
+Sobre o Box Model e Box Sizing:
+    - Padding e Border, quando usados, modificam o tamanho do elemento. O que acaba não mantendo o tamanho que o 
+     programdor gostaria quando determina a altura (height) e a largura (width) do elemento.  
+    
+    - Usando "box-sizing: border-box" você resolve esse problema do padding e border. Todo o padding e border ficam contidos nos tamanhos
+     da altura e largura do elemento.
+*/
+
+#primeira{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 10px solid black;  
+    box-sizing: border-box;
+}
+
+#segunda{
+    height:100px;
+    width:100px;
+    background-color: red;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /*
+        Para ter um controle melhor dos elementos, do design total da página, recomenda-se colocar margin e padding do body como zeros
+    */
+}
