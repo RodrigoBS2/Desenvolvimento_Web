@@ -1,0 +1,31 @@
+/*
+Estilo de link
+    Para modificar certas propriedades do link, veja o código a seguir
+*/
+
+
+a{
+    background-color: blue;
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Pseudo class */
+
+/* Alterar o estilo quando o link é visitado */
+a:visited{
+    background-color: black;
+}
+
+/* Altera quando o mouse esta em cima do link */
+a:hover{
+    padding: 30px;
+}
+
+/* Quando o mouse clica no link */
+a:active{
+    background-color: #444;
+}
+
