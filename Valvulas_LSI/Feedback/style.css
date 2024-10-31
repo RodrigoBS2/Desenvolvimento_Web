@@ -36,3 +36,10 @@
     padding: 10px 20px;
     font-size: 18px;
 }
+
+#feedback {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #007BFF; /* Cor azul */
+    text-align: center; /* Centraliza o texto */
+}
